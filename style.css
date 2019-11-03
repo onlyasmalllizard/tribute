@@ -1,0 +1,52 @@
+body, h1, p, div, img, figcaption, a {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 10px;
+    padding: 10px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0eada;
+    color: #292007;
+    font-family: Nanum Myeongjo, sans-serif;
+}
+
+#title {
+    margin: 10px;
+    padding: 10px;
+    align-self: center;
+    font-family: Mansalva, sans-serif;
+    font-size: 50px;
+}
+
+#img-div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#image {
+    max-width: 80%;
+    height: auto;
+    border: 1px solid #2e2d2c;
+}
+
+#img-caption {
+    min-width: 79.75%;
+    text-align: center;
+    background-color: #2e2d2c;
+    color: #fff;
+    padding: 3px;
+}
+
+#tribute-info {
+    max-width: 80%;
+    align-self: center;
+}
